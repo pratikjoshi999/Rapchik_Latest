@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg_color"
+    tools:context="com.india.rapchik.Home.Home_F">
+
+  <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+      android:layout_width="match_parent"
+      android:id="@+id/swiperefresh"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/search_layout">
+
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/recylerview"
+      android:layout_marginBottom="5dp"
+      android:background="@color/black_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Following"
+          android:id="@+id/following_btn"
+          android:textSize="17dp"
+          android:textStyle="bold"
+          android:padding="15dp"
+          android:shadowColor="@color/black"
+          android:shadowDx="1"
+          android:shadowDy="1"
+          android:ellipsize="end"
+          android:shadowRadius="3"
+          android:textColor="@color/graycolor2"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Related"
+          android:id="@+id/related_btn"
+          android:textSize="17dp"
+          android:padding="15dp"
+          android:textStyle="bold"
+          android:shadowColor="@color/black"
+          android:shadowDx="1"
+          android:shadowDy="1"
+          android:ellipsize="end"
+          android:shadowRadius="3"
+          android:textColor="@color/app_color"/>
+    </LinearLayout>
+
+
+    <ProgressBar
+      android:id="@+id/p_bar"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="match_parent"
+      android:layout_height="10dp"
+      android:layout_alignParentBottom="true"
+      android:indeterminateOnly="true"
+      android:visibility="visible"
+      android:indeterminateTint="@color/yellow_color"
+      android:secondaryProgress="@android:integer/config_shortAnimTime"/>
+
+  </RelativeLayout>
+
+  </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

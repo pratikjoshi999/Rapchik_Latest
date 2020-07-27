@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "734485757389",
+    "firebase_url": "https://rapchik-9a3bc.firebaseio.com",
+    "project_id": "rapchik-9a3bc",
+    "storage_bucket": "rapchik-9a3bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734485757389:android:8b4d32bf67c09293b79884",
+        "android_client_info": {
+          "package_name": "com.india.rapchik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734485757389-m73ajunqr0nd1arnsgmoas2splo4qon9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFjGlwS58p_7-ElzO5395jFiHiQJe4_XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734485757389-m73ajunqr0nd1arnsgmoas2splo4qon9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
